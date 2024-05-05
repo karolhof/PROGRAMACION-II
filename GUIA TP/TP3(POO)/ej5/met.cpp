@@ -15,7 +15,6 @@ void Punto::mostrar(){
     cout<<"X: "<<x<<endl;
     cout<<"Y: "<<y<<endl;
 }
-
 Punto& Punto::operator++(){
     x+=1;
     y+=1;
