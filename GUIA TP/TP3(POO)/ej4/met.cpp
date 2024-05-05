@@ -23,6 +23,12 @@ void Cronometro::reset(){
 }
 
 Cronometro& Cronometro::operator++(){
-    segundos+=1;
+    segundos=(segundos+1)%60;
+    if (segundos==0){
+        minutos=(minutos+1)%60;
+        if (minutos==0){
+            horas=(horas+1)%24;
+        }
+    }
     return *this;
 }

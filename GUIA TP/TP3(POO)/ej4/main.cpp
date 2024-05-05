@@ -10,6 +10,8 @@ int main(){
     O1.mostrar();
     ++O1;
     O1.mostrar();
+    ++O1;
+    O1.mostrar();
     O1.reset();
     O1.mostrar();
     return 0;
