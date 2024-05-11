@@ -5,7 +5,6 @@ Complejo::Complejo(int _real, int _imaginario){
     real=_real;
     imaginario=_imaginario;
 }
-
 Complejo Complejo::operator+(const Complejo& otro){
     int nuevoReal=real+otro.real;
     int nuevoImaginario=imaginario+otro.imaginario;
@@ -21,7 +20,6 @@ Complejo Complejo::operator*(const Complejo& otro){
     double nuevoImaginario = (real * otro.imaginario) + (imaginario * otro.real);
     return Complejo(nuevoReal, nuevoImaginario);
 }
-
 void Complejo::mostrar(){
     cout<<real<<"+"<<imaginario<<"i"<<endl;
 }
