@@ -12,6 +12,7 @@ Racional Racional::operator+(const Racional& otro){
     return Racional(nuevoNumerador,nuemoDenominador);
 }
 
+
 Racional Racional::operator-(const Racional& otro){
     int nuevoNumerador=numerador*otro.denominador - otro.numerador*denominador;
     int nuemoDenominador=denominador * otro.denominador;
