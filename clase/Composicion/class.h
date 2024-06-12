@@ -29,7 +29,3 @@ class Profesor : public Persona{
     void asignarMateria(Materia);
     void mostrar();
 };
-
-class Alumno : public Persona{
-
-};
